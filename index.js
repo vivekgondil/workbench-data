@@ -20,7 +20,6 @@ const getData = async (flowId) => {
   const flowData = await authAxios.get(
     `/api/orgs/ascential/flows/${flowId}?include=project%2Ceditor`
   );
-  // console.log(flowData.data.definition.collectionId, flowData.data.closeHours);
   const cronExpression = flowData.data.cron;
   const interval = parser.parseExpression(cronExpression);
   const cronTime = interval
@@ -33,10 +32,6 @@ const getData = async (flowId) => {
   let requiredDelivery = deliveries.data.items.filter(
     (element) =>
       element.status === "CLOSED" && element.addedAt.includes(`T${cronTime}`)
-  );
-  // console.log(requiredDelivery[0].id);
-  let snapshotsData = await authAxios.get(
-    `/api/orgs/ascential/deliveries/${requiredDelivery[0].id}/snapshots?limit=1000&sort=addedAt&sortDirection=DESC&include=Source.Collection.Project%2CimportStatus%2Ceditor%2CassignedUser%2Cparent&filter=parentId%7C%7Cnull`
   );
   const pushObj = (snapshotsData) => {
     snapshotsData.data.items.forEach((ele) => {
@@ -51,24 +46,25 @@ const getData = async (flowId) => {
       });
     });
   };
-  pushObj(snapshotsData);
 
-  while (snapshotsData.data.metadata.cursor) {
+  let curs = "";
+  do {
     snapshotsData = await authAxios.get(
-      `/api/orgs/ascential/deliveries/${requiredDelivery[0].id}/snapshots?limit=1000&sort=addedAt&sortDirection=DESC&include=Source.Collection.Project%2CimportStatus%2Ceditor%2CassignedUser%2Cparent&filter=parentId%7C%7Cnull&cursor=${snapshotsData.data.metadata.cursor}`
+      `/api/orgs/ascential/deliveries/${requiredDelivery[0].id}/snapshots?limit=1000&sort=addedAt&sortDirection=DESC&include=Source.Collection.Project%2CimportStatus%2Ceditor%2CassignedUser%2Cparent&filter=parentId%7C%7Cnull&cursor=${curs}`
     );
+    curs = snapshotsData.data.metadata.cursor;
     pushObj(snapshotsData);
-  }
+  } while (curs);
 
   return data;
 };
 
 const main = async () => {
+  console.log("Pls wait while we extract data");
 
-    console.log("Pls wait while we extract data");
   //----------get data-----------
-  const records = await getData("3e12e84f-db07-4b66-8991-5e5cf93be996");
-  // console.log(records);
+  let records = await getData("3e12e84f-db07-4b66-8991-5e5cf93be996");
+  //   records = [...records, await getData("e80842f4-b479-43f7-9f9e-c771575bb424")];
   // getData('e93afc81-c506-459f-a6f8-c37c85376582');
 
   //---------Write Data to JSON ---------------
