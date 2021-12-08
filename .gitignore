@@ -107,5 +107,5 @@ dist
 feed_data.json
 
 #credentials file
-creds.js
+creds.json
 
