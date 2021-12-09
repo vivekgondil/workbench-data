@@ -37,16 +37,16 @@ const getData = async ({ flowId, name, project, customer }) => {
     const pushObj = (snapshotsData) => {
       snapshotsData.data.items.forEach((ele) => {
         data.push({
-          customer,
-          project,
-          flow: name,
-          source: ele.source.parameters.input_name,
-          country: ele.source.parameters.country,
-          startTime: ele.addedAt,
-          inputsCount: ele.inputs,
-          collection: ele.source.collection.slug,
-          collectionWindow: flowData.data.closeHours,
-          deliveryTime: ele.stoppedAt,
+          Customer: customer,
+          Project: project,
+          Flow: name,
+          Collection: ele.source.collection.slug,
+          Source: ele.source.parameters.output_name,
+          Country: ele.source.parameters.country,
+          Inputs: ele.inputs,
+          Start_time: ele.addedAt,
+          Collection_Window: flowData.data.closeHours,
+          Usual_Delivery_time: ele.stoppedAt,
         });
       });
     };
@@ -104,7 +104,7 @@ const main = async (projectId) => {
   for (row of response) for (e of row) records.push(e);
 
   //---------Write Data to JSON ---------------
-  let data = JSON.stringify({ records }, null, 2);
+  let data = JSON.stringify(records , null, 2);
 
   fs.writeFile("feed_data.json", data, (err) => {
     if (err) throw err;
