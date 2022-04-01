@@ -30,10 +30,9 @@ let errorSnapshots = [];
             });
             console.log(a);
         } catch (error) {
-            console.log("Can not rerun: " + snapshot + " Error: " + error);
+            console.log("Can not rerun: " + snapshot.match(/(\/sources\/)([^/]+)/g)[0].match(/[^/]+/g)[1] + " Error: " + error);
             errorSnapshots.push(snapshot);
             let data = JSON.stringify({ errorSnapshots }, null, 2);
-            console.log(data);
             fs.writeFile('./missedFeed.json', data, (err) => {
                 if (err) throw err;
                 console.log('Data written to file');
@@ -41,3 +40,5 @@ let errorSnapshots = [];
         }
     });
 })();
+
+

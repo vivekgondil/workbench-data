@@ -109,3 +109,5 @@ feed_data.json
 #credentials file
 credentials.json
 
+ReImport/snapshots.js
+ReImport/missedFeeds.js
