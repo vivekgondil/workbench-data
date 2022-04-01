@@ -1,6 +1,7 @@
 require(`dotenv`).config();
 const axios = require(`axios`);
 const fs = require('fs');
+const snapshots = require('./snapshots.js')
 
 const authAxios = axios.create({
     baseURL: "https://workbench.import.io",
@@ -14,31 +15,26 @@ const authAxios = axios.create({
     },
 });
 
-let snapshots = [
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf_beta/collections/search/sources/lidl_es/snapshots/138d27f5-cbfa-4c90-ad12-c954d1844aaf/home",
-        orgSlug: "ascential",
-        snapshotId: "138d27f5-cbfa-4c90-ad12-c954d1844aaf",
-    }
-]
 let errorSnapshots = [];
 
 (async () => {
-    await snapshots.forEach(async snapshot => {
+    await snapshots.forEach(async (snapshot) => {
         try {
-            let a = await authAxios.post(`/api/orgs/${snapshot.orgSlug}/snapshots/${snapshot.snapshotId}/_retry`, {
+
+            let a = await authAxios.post(`/api/orgs/${snapshot.match(/(\/orgs\/)([^/]+)/g)[0].match(/[^/]+/g)[1]}/snapshots/${snapshot.match(/snapshots\/([^/]+)/g)[0].match(/[^/]+/g)[1]}/_retry`, {
                 "options": {
                     "skipQaTests": false,
-                    "rerunQueries": true
+                    "rerunQueries": true,
                 },
                 "mustFinishBy": null,
             });
             console.log(a);
         } catch (error) {
-            console.log("Can not rerun: " + snapshot.orgSlug + ":" + snapshot.snapshotId + " Error: " + error);
+            console.log("Can not rerun: " + snapshot + " Error: " + error);
             errorSnapshots.push(snapshot);
-            let data = JSON.stringify(errorSnapshots, null, 2);
-            fs.writeFile('missedFeed.json', data, (err) => {
+            let data = JSON.stringify({ errorSnapshots }, null, 2);
+            console.log(data);
+            fs.writeFile('./missedFeed.json', data, (err) => {
                 if (err) throw err;
                 console.log('Data written to file');
             });
