@@ -33,7 +33,7 @@ let errorSnapshots = [];
             console.log("Can not rerun: " + snapshot.match(/(\/sources\/)([^/]+)/g)[0].match(/[^/]+/g)[1] + " Error: " + error);
             errorSnapshots.push(snapshot);
             let data = JSON.stringify({ errorSnapshots }, null, 2);
-            fs.writeFile('./missedFeed.json', data, (err) => {
+            fs.writeFile('./ReImport/missedFeed.json', data, (err) => {
                 if (err) throw err;
                 console.log('Data written to file');
             });
