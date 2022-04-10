@@ -110,5 +110,6 @@ feed_data.json
 credentials.json
 
 ReImport/snapshots.js
-ReImport/missedFeeds.json
+ReImport/missedFeed.json
 missedFeeds.json
+RerunLastSnapshot/sources.js
