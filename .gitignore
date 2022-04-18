@@ -113,3 +113,5 @@ ReImport/snapshots.js
 ReImport/missedFeed.json
 missedFeeds.json
 RerunLastSnapshot/sources.js
+
+*.json
