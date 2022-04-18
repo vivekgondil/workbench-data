@@ -1,529 +1,578 @@
-module.exports = [
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/ab_gr/snapshots/f3f07586-5269-4fa5-8210-2661ccc1d617/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/amazon_ae/snapshots/78941517-6d55-433e-bacd-5d041648c2a3/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/amazon_nm/snapshots/b701046a-2e47-4bf7-93bb-068c8b5f64a6/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/apopro_dk/snapshots/67b9a499-fe58-4597-9aa5-a4c05522f233/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/aptekagemini_pl/snapshots/9b3f95e1-1cf3-44ac-bd1d-53bea4579f5f/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/aptekamelissa_pl/snapshots/75f58d39-ef2d-43f9-af72-ca5c3caf2274/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/aptekaolmed_pl/snapshots/819c5ffc-bd2f-495c-bb2b-59c238a4628d/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/at_0815/snapshots/1c346b9f-d68c-49d2-b3ac-6a32d4cbf87b/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/atticabeauty_gr/snapshots/858c88db-cdbb-482a-ab2e-bc0fd5a1e672/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/auchan_ua/snapshots/21db3db2-4b75-4b4c-a1d1-0f2304ab52eb/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bezokularow_pl/snapshots/b9e7525c-8a47-4129-8e62-4f8b7466f75a/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bilkatogo_dk/snapshots/aa7d3b08-b10d-477f-b481-151ee7c90e1d/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/billa_at/snapshots/6c37570b-6c73-4109-9068-9a7f1a721f6b/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bipa_at/snapshots/4fc3ae8d-8587-4f39-9dfb-ed30454410b1/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/blivakker_us/snapshots/93e3a33a-4ac3-44b1-843e-e72408d655e1/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/blush_no/snapshots/f2b302be-d96c-468e-9c0b-a3fdffdc204f/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/carrefour_ae/snapshots/d65bb47c-1cbc-4f71-81e5-4a884d25d464/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/carrefour_pl/snapshots/7a9579c2-292f-4b71-8906-5711484baa54/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/chemistwarehouse_nz/snapshots/9b0efad8-0da6-449c-b8f6-2a4668e6dadb/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/cocopanda_dk/snapshots/16e6f7d8-7900-4cbf-bb6a-80b816cda91f/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/cocopanda_fi/snapshots/d4cef32e-edc1-477b-b883-3076cd257844/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/comfy_ua/snapshots/cafc91d3-0546-47b8-ab45-ad619f0fc057/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/continente_pt/snapshots/a156d94e-0b2d-45ed-ab15-3b170bbfdf98/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/daily_noon_ae/snapshots/161ba08c-c450-4f0d-a078-ccf8c805fbcd/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/dm_at/snapshots/691d4ffd-586a-4329-ba0e-90dcb4c61755/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/dm_hu/snapshots/9fe0f11b-9abc-40ab-8248-ac3dc379c95e/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/douglas_at/snapshots/12314769-474f-4c20-9fb6-96184d242f02/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/doz_pl/snapshots/98312960-bc06-4b65-b182-0a70800e774e/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/e_fresh_gr/snapshots/92f62495-b2f2-41d6-8ca9-ce2d5f8ee7b4/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/eldorado_ua/snapshots/7975fae9-42b7-4f00-a761-9532f27b673c/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/electronic4you_at/snapshots/99f293eb-b614-4b2a-aa54-47370e78ffc2/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/elkjop_no/snapshots/8a686e3e-6dac-467b-afb9-bcd6be94c900/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/eobuwie_pl/snapshots/2e7fd529-308e-4062-8f0c-06074f77be30/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/euro_net_pl/snapshots/b38a1aad-ab66-485b-b932-4f3635227032/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/extremedigital_hu/snapshots/4512dba4-acb4-4e07-a17e-b5573f9f4371/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/falabella_cl/snapshots/0550750e-07b4-40ca-abc1-078c664887ae/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/fleggaard_dk/snapshots/9e0db27b-3cde-45fe-bcf8-5a750db5c7ac/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/foodie_fi/snapshots/803faa2f-7987-4d00-b78b-a13afec8be1f/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/frisco_pl/snapshots/c6c68e30-cd2e-48b9-a351-df7c942987fc/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/harveynorman_nz/snapshots/919396f8-5375-4723-8abc-d62468f34379/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/hondoscenter_gr/snapshots/b507ed8d-46f2-400a-a787-c3a935a88ee3/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/interspar_at/snapshots/28f384fc-c673-4654-b441-59a32d488226/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/jumbo_cl/snapshots/29569a84-069a-47b1-93d7-a7e83e9971f9/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/kauppahalli24_fi/snapshots/5d2f43d2-50ae-4bbd-b72a-1403beda0ae5/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/kicks_no/snapshots/be0e33b6-a21f-4b56-8133-cc020ad131c1/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/kolonial_no/snapshots/58af2e92-8624-450b-aad4-e8440ad629a0/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/kotsovolos_gr/snapshots/c475d119-6694-448f-a955-7aadbbeb7740/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/k_ruoka_fi/snapshots/4257b9b2-0316-4007-b2a0-2b21d9d3eb68/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/lider_cl/snapshots/207dc3cb-6d47-4416-9df2-bba648a0f88d/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/lojashampoo_pt/snapshots/991f6be5-ddac-44e9-adf8-fcfc7f068fa3/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/lomax_dk/snapshots/7f002f3e-030b-427a-923e-2a94cadfdb79/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/lulu_ae/snapshots/574db004-8083-4231-b8e1-3900c68f141e/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/luluwebstore_nm/snapshots/3fdf31ab-4621-4b70-9dfe-359a6385d169/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/madcoop_dk/snapshots/67e3ff92-d7c4-4ac2-8ea7-214e7b836e04/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/makro_za/snapshots/89de2ad5-50ae-428c-8630-5aef944140f8/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/marionnaud_at/snapshots/82085426-9caf-44b3-82f2-117c92dba994/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/matas_dk/snapshots/bae4809c-3a15-4ad8-9740-0be6177c93e9/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mediamarkt_at/snapshots/cc7a1857-50ae-416f-9cc7-0135a6e93658/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mediamarkt_hu/snapshots/44a86f11-160c-4199-8755-b087821616dc/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mediamarkt_pl/snapshots/e3567b82-ac3d-4ccc-bbd8-8503ece0d107/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mediamarkt_pt/snapshots/2c41b0bd-4e61-4a9f-862e-8b0016216018/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/meny_no/snapshots/5077a511-dfa4-4ab3-afbe-c8188ca360eb/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mpreis_at/snapshots/9630e395-fdf0-497c-91eb-b8e89e712e66/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mymarket_gr/snapshots/6ed4d784-ccdc-46fa-8ff1-96368e084b35/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/naszezoo_pl/snapshots/1a19737a-a164-4d25-9832-66fe9f97a413/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/nemlig_menu_dk/snapshots/0561ceba-1301-4711-9821-e6a03bbceb6e/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/neonet_pl/snapshots/ae4ecdcc-a669-4e62-8ac0-fb6b478932a8/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/nespresso_at/snapshots/8e935f93-5f3f-4c36-a237-30dbf34d80aa/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/nespresso_at/snapshots/c2f0a702-68ca-45fa-928c-e76a103b42a1/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/nicehair_dk/snapshots/756cf1f0-5df6-4c28-b323-47fb6a68ff0f/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/notino_at/snapshots/fbb9524f-3bee-4f4a-ac80-ea94fca4d7fd/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/paknsave_nz/snapshots/74500181-1298-4c4c-923c-2fc8cb7c3d69/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/pampik_ua/snapshots/2767980a-22d8-4eee-be2a-7555cda45f2d/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/paris_cl/snapshots/2f983966-1fc1-4529-94f2-09404e12cc49/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/perfumesecompanhia_pt/snapshots/8b2d7bb0-ab99-4ad1-87f0-d511b847078b/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/pnp_za/snapshots/407dbd12-9ef4-45e5-ac52-85294c180c9f/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/power_no/snapshots/787a27fb-88d5-4ab4-a279-dae58e2f83da/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/power_no/snapshots/e7089554-3593-49b5-bde4-25b733da1fbb/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/ripley_cl/snapshots/8c74c550-0f98-41de-955b-e329769450ad/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/rossmann_hu/snapshots/982564f1-d4af-4349-ba10-bc269dd0212f/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/rozetka_ua/snapshots/defdfdf7-7be7-41f1-b44d-e9141941a5b0/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/sephora_gr/snapshots/05f4aaf7-d7c5-405b-ac9f-55d8cd5e943b/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/sharafdg_ae/snapshots/e91ed517-5419-4874-9b49-22add07ff7ab/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/skin_pt/snapshots/52314bff-bade-41ff-b82b-28e314060aa8/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/spar_hu/snapshots/59e1feb9-5b93-4955-827f-8014e9f20d3d/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/spar_no/snapshots/2b5be355-c622-4d46-8b4f-eb7423653850/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/stockmann_fi/snapshots/66aa74a7-8025-45cb-b136-4b3513e295d6/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/sweetcare_pt/snapshots/55055d7b-b543-4051-8a01-fc1766cce20f/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/szkla_pl/snapshots/a5262341-abe1-49b3-80e4-75fca36b1cbb/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/takealot_za/snapshots/078084fe-7016-44e7-be2a-3b455c48c46a/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/telekarma_pl/snapshots/cc5ee410-e7b7-4d6e-baf1-8e112a885925/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/tesco_hu/snapshots/52f75670-5df2-45c0-8722-10ebec557fce/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/thewarehouse_nz/snapshots/7dfef221-1af6-4ebb-99c3-6817a94d0832/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/tokmanni_fi/snapshots/b76118e0-d704-495b-b48f-f017a9159db8/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/tottus_cl/snapshots/11781368-b127-47ee-96c3-218d6f0752ae/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/whiteaway/snapshots/6732bf30-f3f8-4ac7-9b2f-6736c23e06ed/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/worten_pt/snapshots/755a4726-8c01-4089-b050-ce1aa29255d9/home"
-    },
+const WorkbenchSource = require('../WorkbenchSource.js')
 
-
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/ahlens_se/snapshots/cdccdc47-054c-4d2e-9560-33778e0e3d8d/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/ahlsell_se/snapshots/8e0cdb45-afe1-47eb-8ac1-89c98e497156/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/alloffice_se/snapshots/2847b09b-63c0-4d07-af85-726f0effb044/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/amazon_pantry_au/snapshots/fdb8fc0e-342a-4789-953c-c3eec0d1d936/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/amazon_se/snapshots/4c7744d3-b718-43d4-88d9-9fe9230174f2/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/apotea_se/snapshots/69d1c1ed-b6dd-42ce-8832-17741a9a4b56/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bigw_au/snapshots/a2144fa9-4811-441b-8b10-46f1f33a802a/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/boozt_se/snapshots/1e6c6113-bbb8-4552-916b-d88020474a6a/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bottlemart_au/snapshots/b9f54728-5c1a-4d2f-a7ab-af2c6f2c4e3c/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/brack_ch_fr/snapshots/3c422ef7-bd80-4de5-975c-45fe5a718232/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/brack_ch/snapshots/03bb0f14-8dd4-4b63-bdd4-93749367816e/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/budgetpetproducts_au/snapshots/86187d0e-d272-400d-8570-7180f560e700/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/chemistwarehouse_au/snapshots/4dc7417e-d67c-45fe-a5a5-e5c7a76f84c1/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/citygross_se/snapshots/41ff9d44-14a9-4ab3-b034-836dafe1c854/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/cocopanda_se/snapshots/ec00ce1d-cca8-4d31-a540-fdf55a7287e6/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/colesonline_au/snapshots/d141ae11-8184-45e7-a38b-2fa26ea73703/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/conforama_fr_ch/snapshots/6f6c82f6-f954-409d-bb75-9c3bf3953877/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/coopathome_fr/snapshots/34073f5f-3903-4b4c-8357-59986ed50c1e/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/coop_se/snapshots/fcdcac82-78b7-41cb-ab63-3d34a3c4fa12/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/coopvitality_ch/snapshots/62f5722e-95f7-49c4-a67c-aadbd7d3107c/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/danmurphys_au/snapshots/d9e72cd2-b36c-4054-bb34-4f2b6cbdc4eb/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/davidjones_au/snapshots/d7e1209a-5a09-4d7e-b1e6-ce6396849dfc/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/drakes_au/snapshots/08f923b2-7a58-4817-ad62-a20c48d04771/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/elgiganten_se/snapshots/20b0de32-e105-4b4f-8709-5a21b91e881d/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/elgiganten_se/snapshots/3a366c1e-cdb4-45ae-b41c-06f30f17be65/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/fust_ch/snapshots/d5be5eee-fa5b-4abd-9dc0-00f3f4dd1701/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/fust_fr_ch/snapshots/4201f616-f0c4-479a-8758-875ac9083a6d/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/galaxus_ch/snapshots/e4477407-9a18-443c-a3a6-22c4e72813e8/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/galaxus_fr_ch/snapshots/678886ff-7837-4744-8b4a-da75d09ce597/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/globus_ch/snapshots/72faba0e-3717-4046-8e44-f9705fda1933/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/haar_shop_ch/snapshots/af81870d-8ec4-496f-9c7e-1ff8f94046bc/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/handlawillys_se/snapshots/b08a7e5c-fecc-48cf-a108-165062080477/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/hemkop_se/snapshots/1a5db06d-1cb0-40c9-8ab9-e9494bd0ce97/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/ica_se/snapshots/a8bbf673-6f29-40e9-99d5-ffde51ae693e/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/importparfumerie_ch/snapshots/45f86dea-9dc8-4dd3-870a-724b7914aa0b/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/interdiscount_ch/snapshots/e15a193f-6ba3-4802-babd-62409141e5fa/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/interdiscount_fr_ch/snapshots/13acab79-adee-4d74-8af4-f63f2c2a988d/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/jbhifi_au/snapshots/eb8ad50d-4d61-4b0c-b599-1d1ddb625e24/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/jumia_ng/snapshots/fe2729ce-dbad-4d6c-9fd3-87cacc98edfd/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/kick_se/snapshots/b741cf88-7728-4617-bdc9-b953535f4e56/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/kmart_au/snapshots/b479cb16-f786-41a2-9cf7-b3dec3539d0e/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/konga_ng/snapshots/bf68a360-e053-4e36-b79b-45d04ad64d83/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/linsenmax_ch/snapshots/f27e1ab8-8895-4fa3-b4a4-7bab42a1418f/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/liquorland_au/snapshots/f7e10e32-0e22-4242-814a-b1b4047ecc78/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/lyko_se/snapshots/ff4f29e4-7b7c-4d84-9ef7-c728accc838a/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/lyreco_se/snapshots/6fdf71e4-d00b-41d1-b356-a44564ae9d52/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/manor_ch/snapshots/d4766a40-67f7-425a-b756-538e09e67ee3/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/marionnaud_ch/snapshots/eb83cb6b-afe4-4636-80e5-1643e3180f2d/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mathem_se/snapshots/88cfb0c1-2ffa-4715-9542-34d6a672b347/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mat_se/snapshots/cccdaacf-41fc-41b6-b0bb-25b52c803fcb/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mediamarkt_ch/snapshots/2405df3e-bd5f-4b28-bc7b-8d3cd42611da/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mediamarkt_fr_ch/snapshots/059d82c0-68a6-4cbf-a64e-640d4fc43bcf/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/melectronics_ch/snapshots/b068e536-7627-4892-ad39-f19b11e29de5/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/melectronics_fr_ch/snapshots/a4d1e082-d6f9-43f8-8484-c1ff3af3e642/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/microspot_ch/snapshots/54424b12-afa4-49bd-81a6-5f09ddca83e7/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/microspot_fr/snapshots/2303d850-f72d-43e3-94fe-882c2a569016/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/migro_ch/snapshots/2e564d7f-f6d5-4377-b36f-647afb0b2cba/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/migros_fr_ch/snapshots/dd009fd4-67fb-46b6-96f6-44ec6c059b03/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/myer_au/snapshots/410449df-798e-4584-9eb3-28f11ffe3d30/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mypetwarehouse_au/snapshots/1a600e58-85a7-4987-a03a-c421093bcd46/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/nespresso_ch/snapshots/5f30ed0e-b9fb-48ac-9ad6-c279fdac04e5/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/nettoshop_ch/snapshots/8b484b44-65b8-4c7c-9d3b-708c365f6e77/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/nettoshop_fr/snapshots/44a7b231-a07e-4a23-994a-36dbfdc21523/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/nordicfeel_se/snapshots/aa77ffc2-6a5e-4c5c-9348-1e34aa0a676e/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/officedepot_se/snapshots/95c45e35-af81-44f8-876d-566e80df7dbf/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/pacson_se/snapshots/354a97ff-f6cf-4d1b-b9da-e78070881945/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/petbarn_au/snapshots/3d5f83df-6433-426a-8e7b-bf57303201a4/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/petcircle_au/snapshots/696ab134-8352-45de-a573-5ed7172f143f/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/petpost_au/snapshots/135d1e4f-4ae3-4d40-84ff-866e9c24689f/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/petstock_au/snapshots/fe57edd9-bbf4-4183-8eb1-01542b0d4816/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/procurator_se/snapshots/52a21bc2-3dd9-4d42-b637-3d25472e8ded/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/redzac_at/snapshots/db7865cb-b13d-4486-99d6-b189bac73c8a/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/shopmylocal_au/snapshots/7e3fb559-832e-4706-ba5b-69dd0d4f94a4/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/staples_se/snapshots/06ca0cc5-fb98-4fb2-9406-7f2086492107/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/sunstore_ch/snapshots/72d26f40-158d-4937-aca2-559bf3229300/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/thegoodguys_au/snapshots/287af389-f79d-410b-9d1c-0b029d50d2f1/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/tingstad_se/snapshots/c9378b80-981c-452a-ab7f-9adf29fc706e/home"
-    },
-    {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/woolworths_au/snapshots/4afac463-4df3-414b-b34d-b53178a75885/home"
-    },
+const urlList = ["https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/ab_gr/snapshots/f3f07586-5269-4fa5-8210-2661ccc1d617/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/amazon_ae/snapshots/78941517-6d55-433e-bacd-5d041648c2a3/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/amazon_nm/snapshots/b701046a-2e47-4bf7-93bb-068c8b5f64a6/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/apopro_dk/snapshots/67b9a499-fe58-4597-9aa5-a4c05522f233/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/aptekagemini_pl/snapshots/9b3f95e1-1cf3-44ac-bd1d-53bea4579f5f/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/aptekamelissa_pl/snapshots/75f58d39-ef2d-43f9-af72-ca5c3caf2274/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/aptekaolmed_pl/snapshots/819c5ffc-bd2f-495c-bb2b-59c238a4628d/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/at_0815/snapshots/1c346b9f-d68c-49d2-b3ac-6a32d4cbf87b/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/atticabeauty_gr/snapshots/858c88db-cdbb-482a-ab2e-bc0fd5a1e672/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/auchan_ua/snapshots/21db3db2-4b75-4b4c-a1d1-0f2304ab52eb/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bezokularow_pl/snapshots/b9e7525c-8a47-4129-8e62-4f8b7466f75a/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bilkatogo_dk/snapshots/aa7d3b08-b10d-477f-b481-151ee7c90e1d/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/billa_at/snapshots/6c37570b-6c73-4109-9068-9a7f1a721f6b/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bipa_at/snapshots/4fc3ae8d-8587-4f39-9dfb-ed30454410b1/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/blivakker_us/snapshots/93e3a33a-4ac3-44b1-843e-e72408d655e1/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/blush_no/snapshots/f2b302be-d96c-468e-9c0b-a3fdffdc204f/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/carrefour_ae/snapshots/d65bb47c-1cbc-4f71-81e5-4a884d25d464/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/carrefour_pl/snapshots/7a9579c2-292f-4b71-8906-5711484baa54/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/chemistwarehouse_nz/snapshots/9b0efad8-0da6-449c-b8f6-2a4668e6dadb/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/cocopanda_dk/snapshots/16e6f7d8-7900-4cbf-bb6a-80b816cda91f/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/cocopanda_fi/snapshots/d4cef32e-edc1-477b-b883-3076cd257844/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/comfy_ua/snapshots/cafc91d3-0546-47b8-ab45-ad619f0fc057/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/continente_pt/snapshots/a156d94e-0b2d-45ed-ab15-3b170bbfdf98/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/daily_noon_ae/snapshots/161ba08c-c450-4f0d-a078-ccf8c805fbcd/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/dm_at/snapshots/691d4ffd-586a-4329-ba0e-90dcb4c61755/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/dm_hu/snapshots/9fe0f11b-9abc-40ab-8248-ac3dc379c95e/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/douglas_at/snapshots/12314769-474f-4c20-9fb6-96184d242f02/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/doz_pl/snapshots/98312960-bc06-4b65-b182-0a70800e774e/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/e_fresh_gr/snapshots/92f62495-b2f2-41d6-8ca9-ce2d5f8ee7b4/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/eldorado_ua/snapshots/7975fae9-42b7-4f00-a761-9532f27b673c/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/electronic4you_at/snapshots/99f293eb-b614-4b2a-aa54-47370e78ffc2/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/elkjop_no/snapshots/8a686e3e-6dac-467b-afb9-bcd6be94c900/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/eobuwie_pl/snapshots/2e7fd529-308e-4062-8f0c-06074f77be30/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/euro_net_pl/snapshots/b38a1aad-ab66-485b-b932-4f3635227032/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/extremedigital_hu/snapshots/4512dba4-acb4-4e07-a17e-b5573f9f4371/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/falabella_cl/snapshots/0550750e-07b4-40ca-abc1-078c664887ae/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/fleggaard_dk/snapshots/9e0db27b-3cde-45fe-bcf8-5a750db5c7ac/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/foodie_fi/snapshots/803faa2f-7987-4d00-b78b-a13afec8be1f/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/frisco_pl/snapshots/c6c68e30-cd2e-48b9-a351-df7c942987fc/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/harveynorman_nz/snapshots/919396f8-5375-4723-8abc-d62468f34379/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/hondoscenter_gr/snapshots/b507ed8d-46f2-400a-a787-c3a935a88ee3/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/interspar_at/snapshots/28f384fc-c673-4654-b441-59a32d488226/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/jumbo_cl/snapshots/29569a84-069a-47b1-93d7-a7e83e9971f9/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/kauppahalli24_fi/snapshots/5d2f43d2-50ae-4bbd-b72a-1403beda0ae5/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/kicks_no/snapshots/be0e33b6-a21f-4b56-8133-cc020ad131c1/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/kolonial_no/snapshots/58af2e92-8624-450b-aad4-e8440ad629a0/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/kotsovolos_gr/snapshots/c475d119-6694-448f-a955-7aadbbeb7740/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/k_ruoka_fi/snapshots/4257b9b2-0316-4007-b2a0-2b21d9d3eb68/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/lider_cl/snapshots/207dc3cb-6d47-4416-9df2-bba648a0f88d/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/lojashampoo_pt/snapshots/991f6be5-ddac-44e9-adf8-fcfc7f068fa3/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/lomax_dk/snapshots/7f002f3e-030b-427a-923e-2a94cadfdb79/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/lulu_ae/snapshots/574db004-8083-4231-b8e1-3900c68f141e/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/luluwebstore_nm/snapshots/3fdf31ab-4621-4b70-9dfe-359a6385d169/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/madcoop_dk/snapshots/67e3ff92-d7c4-4ac2-8ea7-214e7b836e04/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/makro_za/snapshots/89de2ad5-50ae-428c-8630-5aef944140f8/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/marionnaud_at/snapshots/82085426-9caf-44b3-82f2-117c92dba994/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/matas_dk/snapshots/bae4809c-3a15-4ad8-9740-0be6177c93e9/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mediamarkt_at/snapshots/cc7a1857-50ae-416f-9cc7-0135a6e93658/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mediamarkt_hu/snapshots/44a86f11-160c-4199-8755-b087821616dc/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mediamarkt_pl/snapshots/e3567b82-ac3d-4ccc-bbd8-8503ece0d107/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mediamarkt_pt/snapshots/2c41b0bd-4e61-4a9f-862e-8b0016216018/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/meny_no/snapshots/5077a511-dfa4-4ab3-afbe-c8188ca360eb/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mpreis_at/snapshots/9630e395-fdf0-497c-91eb-b8e89e712e66/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mymarket_gr/snapshots/6ed4d784-ccdc-46fa-8ff1-96368e084b35/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/naszezoo_pl/snapshots/1a19737a-a164-4d25-9832-66fe9f97a413/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/nemlig_menu_dk/snapshots/0561ceba-1301-4711-9821-e6a03bbceb6e/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/neonet_pl/snapshots/ae4ecdcc-a669-4e62-8ac0-fb6b478932a8/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/nespresso_at/snapshots/8e935f93-5f3f-4c36-a237-30dbf34d80aa/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/nespresso_at/snapshots/c2f0a702-68ca-45fa-928c-e76a103b42a1/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/nicehair_dk/snapshots/756cf1f0-5df6-4c28-b323-47fb6a68ff0f/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/notino_at/snapshots/fbb9524f-3bee-4f4a-ac80-ea94fca4d7fd/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/paknsave_nz/snapshots/74500181-1298-4c4c-923c-2fc8cb7c3d69/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/pampik_ua/snapshots/2767980a-22d8-4eee-be2a-7555cda45f2d/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/paris_cl/snapshots/2f983966-1fc1-4529-94f2-09404e12cc49/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/perfumesecompanhia_pt/snapshots/8b2d7bb0-ab99-4ad1-87f0-d511b847078b/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/pnp_za/snapshots/407dbd12-9ef4-45e5-ac52-85294c180c9f/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/power_no/snapshots/787a27fb-88d5-4ab4-a279-dae58e2f83da/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/power_no/snapshots/e7089554-3593-49b5-bde4-25b733da1fbb/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/ripley_cl/snapshots/8c74c550-0f98-41de-955b-e329769450ad/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/rossmann_hu/snapshots/982564f1-d4af-4349-ba10-bc269dd0212f/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/rozetka_ua/snapshots/defdfdf7-7be7-41f1-b44d-e9141941a5b0/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/sephora_gr/snapshots/05f4aaf7-d7c5-405b-ac9f-55d8cd5e943b/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/sharafdg_ae/snapshots/e91ed517-5419-4874-9b49-22add07ff7ab/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/skin_pt/snapshots/52314bff-bade-41ff-b82b-28e314060aa8/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/spar_hu/snapshots/59e1feb9-5b93-4955-827f-8014e9f20d3d/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/spar_no/snapshots/2b5be355-c622-4d46-8b4f-eb7423653850/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/stockmann_fi/snapshots/66aa74a7-8025-45cb-b136-4b3513e295d6/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/sweetcare_pt/snapshots/55055d7b-b543-4051-8a01-fc1766cce20f/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/szkla_pl/snapshots/a5262341-abe1-49b3-80e4-75fca36b1cbb/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/takealot_za/snapshots/078084fe-7016-44e7-be2a-3b455c48c46a/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/telekarma_pl/snapshots/cc5ee410-e7b7-4d6e-baf1-8e112a885925/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/tesco_hu/snapshots/52f75670-5df2-45c0-8722-10ebec557fce/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/thewarehouse_nz/snapshots/7dfef221-1af6-4ebb-99c3-6817a94d0832/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/tokmanni_fi/snapshots/b76118e0-d704-495b-b48f-f017a9159db8/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/tottus_cl/snapshots/11781368-b127-47ee-96c3-218d6f0752ae/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/whiteaway/snapshots/6732bf30-f3f8-4ac7-9b2f-6736c23e06ed/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/worten_pt/snapshots/755a4726-8c01-4089-b050-ce1aa29255d9/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/ahlens_se/snapshots/cdccdc47-054c-4d2e-9560-33778e0e3d8d/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/ahlsell_se/snapshots/8e0cdb45-afe1-47eb-8ac1-89c98e497156/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/alloffice_se/snapshots/2847b09b-63c0-4d07-af85-726f0effb044/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/amazon_pantry_au/snapshots/fdb8fc0e-342a-4789-953c-c3eec0d1d936/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/amazon_se/snapshots/4c7744d3-b718-43d4-88d9-9fe9230174f2/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/apotea_se/snapshots/69d1c1ed-b6dd-42ce-8832-17741a9a4b56/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bigw_au/snapshots/a2144fa9-4811-441b-8b10-46f1f33a802a/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/boozt_se/snapshots/1e6c6113-bbb8-4552-916b-d88020474a6a/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bottlemart_au/snapshots/b9f54728-5c1a-4d2f-a7ab-af2c6f2c4e3c/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/brack_ch_fr/snapshots/3c422ef7-bd80-4de5-975c-45fe5a718232/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/brack_ch/snapshots/03bb0f14-8dd4-4b63-bdd4-93749367816e/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/budgetpetproducts_au/snapshots/86187d0e-d272-400d-8570-7180f560e700/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/chemistwarehouse_au/snapshots/4dc7417e-d67c-45fe-a5a5-e5c7a76f84c1/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/citygross_se/snapshots/41ff9d44-14a9-4ab3-b034-836dafe1c854/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/cocopanda_se/snapshots/ec00ce1d-cca8-4d31-a540-fdf55a7287e6/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/colesonline_au/snapshots/d141ae11-8184-45e7-a38b-2fa26ea73703/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/conforama_fr_ch/snapshots/6f6c82f6-f954-409d-bb75-9c3bf3953877/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/coopathome_fr/snapshots/34073f5f-3903-4b4c-8357-59986ed50c1e/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/coop_se/snapshots/fcdcac82-78b7-41cb-ab63-3d34a3c4fa12/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/coopvitality_ch/snapshots/62f5722e-95f7-49c4-a67c-aadbd7d3107c/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/danmurphys_au/snapshots/d9e72cd2-b36c-4054-bb34-4f2b6cbdc4eb/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/davidjones_au/snapshots/d7e1209a-5a09-4d7e-b1e6-ce6396849dfc/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/drakes_au/snapshots/08f923b2-7a58-4817-ad62-a20c48d04771/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/elgiganten_se/snapshots/20b0de32-e105-4b4f-8709-5a21b91e881d/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/elgiganten_se/snapshots/3a366c1e-cdb4-45ae-b41c-06f30f17be65/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/fust_ch/snapshots/d5be5eee-fa5b-4abd-9dc0-00f3f4dd1701/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/fust_fr_ch/snapshots/4201f616-f0c4-479a-8758-875ac9083a6d/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/galaxus_ch/snapshots/e4477407-9a18-443c-a3a6-22c4e72813e8/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/galaxus_fr_ch/snapshots/678886ff-7837-4744-8b4a-da75d09ce597/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/globus_ch/snapshots/72faba0e-3717-4046-8e44-f9705fda1933/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/haar_shop_ch/snapshots/af81870d-8ec4-496f-9c7e-1ff8f94046bc/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/handlawillys_se/snapshots/b08a7e5c-fecc-48cf-a108-165062080477/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/hemkop_se/snapshots/1a5db06d-1cb0-40c9-8ab9-e9494bd0ce97/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/ica_se/snapshots/a8bbf673-6f29-40e9-99d5-ffde51ae693e/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/importparfumerie_ch/snapshots/45f86dea-9dc8-4dd3-870a-724b7914aa0b/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/interdiscount_ch/snapshots/e15a193f-6ba3-4802-babd-62409141e5fa/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/interdiscount_fr_ch/snapshots/13acab79-adee-4d74-8af4-f63f2c2a988d/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/jbhifi_au/snapshots/eb8ad50d-4d61-4b0c-b599-1d1ddb625e24/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/jumia_ng/snapshots/fe2729ce-dbad-4d6c-9fd3-87cacc98edfd/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/kick_se/snapshots/b741cf88-7728-4617-bdc9-b953535f4e56/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/kmart_au/snapshots/b479cb16-f786-41a2-9cf7-b3dec3539d0e/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/konga_ng/snapshots/bf68a360-e053-4e36-b79b-45d04ad64d83/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/linsenmax_ch/snapshots/f27e1ab8-8895-4fa3-b4a4-7bab42a1418f/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/liquorland_au/snapshots/f7e10e32-0e22-4242-814a-b1b4047ecc78/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/lyko_se/snapshots/ff4f29e4-7b7c-4d84-9ef7-c728accc838a/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/lyreco_se/snapshots/6fdf71e4-d00b-41d1-b356-a44564ae9d52/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/manor_ch/snapshots/d4766a40-67f7-425a-b756-538e09e67ee3/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/marionnaud_ch/snapshots/eb83cb6b-afe4-4636-80e5-1643e3180f2d/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mathem_se/snapshots/88cfb0c1-2ffa-4715-9542-34d6a672b347/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mat_se/snapshots/cccdaacf-41fc-41b6-b0bb-25b52c803fcb/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mediamarkt_ch/snapshots/2405df3e-bd5f-4b28-bc7b-8d3cd42611da/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mediamarkt_fr_ch/snapshots/059d82c0-68a6-4cbf-a64e-640d4fc43bcf/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/melectronics_ch/snapshots/b068e536-7627-4892-ad39-f19b11e29de5/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/melectronics_fr_ch/snapshots/a4d1e082-d6f9-43f8-8484-c1ff3af3e642/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/microspot_ch/snapshots/54424b12-afa4-49bd-81a6-5f09ddca83e7/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/microspot_fr/snapshots/2303d850-f72d-43e3-94fe-882c2a569016/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/migro_ch/snapshots/2e564d7f-f6d5-4377-b36f-647afb0b2cba/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/migros_fr_ch/snapshots/dd009fd4-67fb-46b6-96f6-44ec6c059b03/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/myer_au/snapshots/410449df-798e-4584-9eb3-28f11ffe3d30/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mypetwarehouse_au/snapshots/1a600e58-85a7-4987-a03a-c421093bcd46/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/nespresso_ch/snapshots/5f30ed0e-b9fb-48ac-9ad6-c279fdac04e5/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/nettoshop_ch/snapshots/8b484b44-65b8-4c7c-9d3b-708c365f6e77/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/nettoshop_fr/snapshots/44a7b231-a07e-4a23-994a-36dbfdc21523/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/nordicfeel_se/snapshots/aa77ffc2-6a5e-4c5c-9348-1e34aa0a676e/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/officedepot_se/snapshots/95c45e35-af81-44f8-876d-566e80df7dbf/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/pacson_se/snapshots/354a97ff-f6cf-4d1b-b9da-e78070881945/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/petbarn_au/snapshots/3d5f83df-6433-426a-8e7b-bf57303201a4/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/petcircle_au/snapshots/696ab134-8352-45de-a573-5ed7172f143f/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/petpost_au/snapshots/135d1e4f-4ae3-4d40-84ff-866e9c24689f/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/petstock_au/snapshots/fe57edd9-bbf4-4183-8eb1-01542b0d4816/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/procurator_se/snapshots/52a21bc2-3dd9-4d42-b637-3d25472e8ded/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/redzac_at/snapshots/db7865cb-b13d-4486-99d6-b189bac73c8a/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/shopmylocal_au/snapshots/7e3fb559-832e-4706-ba5b-69dd0d4f94a4/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/staples_se/snapshots/06ca0cc5-fb98-4fb2-9406-7f2086492107/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/sunstore_ch/snapshots/72d26f40-158d-4937-aca2-559bf3229300/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/thegoodguys_au/snapshots/287af389-f79d-410b-9d1c-0b029d50d2f1/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/tingstad_se/snapshots/c9378b80-981c-452a-ab7f-9adf29fc706e/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/woolworths_au/snapshots/4afac463-4df3-414b-b34d-b53178a75885/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/albertsons_83642_us/snapshots/7425f112-4c68-4f91-aad6-2762a8b8ada5/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/amazon_10023_us/snapshots/42b5c766-7385-4458-b0c9-fac1b3f311ac/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/amazon_lg_us/snapshots/bc0edb6f-8c1f-4c27-a3c3-1235074be212/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/amazonprimenow_us/snapshots/46ec254c-8929-4050-a298-43a465eb0667/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/barbora_lt/snapshots/d19302f1-2dde-4888-88ee-384d088bc56e/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bedbathbeyond_us/snapshots/2a853ed6-b051-4632-a993-4957d259fa05/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bestbuy_lg_us/snapshots/89cfd488-e424-430b-a59e-6f6d7ba8d661/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bestbuy_us/snapshots/58df56dd-6fce-4eeb-960b-ff2a0df8c0cc/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bevmo_us/snapshots/890523dc-a131-4dd5-a914-5143dc52414a/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bhphotovideo_us/snapshots/45ec4788-eb6c-43c3-b6af-e622de4c48e2/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bjs_us/snapshots/d2f151f1-c861-42a4-8b18-db436ef753e7/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bloomingdales_us/snapshots/b9cbf60e-dcee-44c9-887f-c9a2c0388909/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/btech_eg/snapshots/fc46a483-0cdf-49bc-9357-6cb897f92fa3/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/cdw_us/snapshots/7a755835-7297-4f99-988c-1102717baa8f/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/chewy_us/snapshots/98adcd3e-92fb-427a-ae19-8cfee98437f2/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/cleanitsupply_us/snapshots/e135df9a-e773-4355-927f-1dec24b9cf8e/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/connectioncom/snapshots/5820dd27-a08d-4ff3-b0b1-1af0a5dfe602/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/costco_98188_us/snapshots/98dcbcc7-73bb-457a-b2e9-77aa4ae7cfdc/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/costco_lg_us/snapshots/d5df9ed0-27df-4b28-accd-80435cf20100/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/costco_us/snapshots/c522c91e-be2b-4eed-b8ee-3346973c80b9/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/cvs_us/snapshots/f3d4e8a8-3836-4e84-ade3-4b91f056aba6/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/danube_ar_sa/snapshots/631259f5-3157-4175-8ab4-1d5ad2d376c7/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/dermstore_us/snapshots/a1a4600b-26ad-4681-b630-c737edbffc31/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/drizly_us/snapshots/1d9bd223-ca73-4fdd-853c-0cbb0dd7b282/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/emag_ro/snapshots/1f02edf9-ae37-4841-b69d-6efc500bba81/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/extra_sa/snapshots/959f7d76-ebdf-4ce3-b382-08b6aa0fccb3/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/ferguson_us/snapshots/e7b73060-51f3-4ff1-a6fc-86ebffaa37cc/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/fiveelement_by/snapshots/13f7a6dc-6cdc-42d9-a205-0ed42c50267b/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/freshamazon_75204_us/snapshots/920ebb8b-7812-4c22-a731-af1b116a85e5/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/freshamazon_us/snapshots/9769b2e7-93f0-4d53-b8e8-c8e22e7d9e08/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/gopuff_us/snapshots/58879142-d5dd-47af-837f-6affcad37515/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/harristeeter_28203_us/snapshots/2e8451dc-0a89-4040-a7de-9c017ba61693/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/harristeeter_us/snapshots/5375f856-3a0e-4745-a25d-c4b97fafb562/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/heb_77055_us/snapshots/b451528f-5c12-4312-89ee-5fed0980d399/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/heb_78258_us/snapshots/ac73ca94-df48-40f2-89d0-972b13d75e34/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/homedepot_lg_us/snapshots/b1bf63f2-5d4c-4bc7-9c70-8d7f55112e0f/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/homedepot_us/snapshots/184c7a26-6135-4fe2-a3f8-08f3c970a4f9/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/insight_us/snapshots/aa7a4c9b-696e-4def-a323-ac821662d3ed/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/keurig_us/snapshots/4e2e8a97-176d-4477-8727-fbe810cc08c9/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/kroger_45044_us/snapshots/ce801dbf-2147-4213-83ee-42df0a6cc046/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/kroger_48315_us/snapshots/6ec0a562-6fe9-4561-b700-830a9f645eaf/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/kroger_us/snapshots/236c0889-aaa9-49f5-a534-86fe1b4b4327/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/lowes_lg_us/snapshots/d70dfc0c-a811-4578-a3c8-f9e940044eae/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/lowes_us/snapshots/a8ba33c2-7769-4517-af7c-7c5f17df0eaa/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/macys_us/snapshots/fa5c94c1-4906-4b23-b804-29d24d0e28eb/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mega_image_ro/snapshots/ef222af4-2b4f-4a0f-ae8a-7f04b9f78672/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/meijer_49684_us/snapshots/0b425cdd-f4e9-4db8-8c6d-a29245f9f8d7/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/meijer_us/snapshots/1b8b301e-821c-42ec-b435-0e368f3d2f15/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/nordstrom_us/snapshots/0f0c5d37-d02c-4572-b5ec-7d7ef0399082/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/officedepot_us/snapshots/86881738-16f6-492f-a36e-ed43d52251d0/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/panafoto_com/snapshots/001c9506-e6e9-46a9-ba7d-55fc59367ab0/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/petco_us/snapshots/3ccc2e66-4972-45fc-b9ac-29ddf36be32a/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/petsmart_us/snapshots/7e196b76-566d-4d09-b68a-d830dbee0904/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/petsuppliesplus_us/snapshots/f7c5f5eb-fec2-421f-bbb1-f77afa025e80/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/qvc_us/snapshots/db2725b6-ae6c-4ede-a1df-6011e3f535ad/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/restockitcom/snapshots/add760b8-fb6f-4ef3-ade7-d6f4d906c023/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/safeway_95125_us/snapshots/90df2753-8d5d-4ea3-b1c7-77389ca4de55/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/safeway_us/snapshots/981cac17-68eb-4f43-a2f2-a95fc2664be2/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/samsclub_us/snapshots/87f79ba4-4e8c-4a7d-85ff-64aa1f5d5158/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/sears_us/snapshots/477fca46-d749-4b29-9f84-6158c869b454/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/sephora_us/snapshots/8a01d67f-4fe9-4e25-8372-5c94b660b2cd/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/seven_now_10701_us/snapshots/9e96fe14-a396-4bc6-bfd5-47a27c7805d8/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/seven_now_us/snapshots/d8f0c148-9037-4eea-9ba4-3c20a93a7099/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/shoprite08096_us/snapshots/14453b67-263a-4b20-a61e-e8e29a67ded7/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/shoprite_us/snapshots/852eafd4-46eb-41ea-a1c9-cc61fc1f0ffa/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/surlatable_us/snapshots/552037ca-bd06-4b03-89ed-fd63e266fdaa/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/target_us/snapshots/80996ce2-4b40-4ae1-b5b6-97a94a932aa6/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/tigerdirect_us/snapshots/d2974a03-7c5e-4af4-a101-8eeb2a52d53a/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/tomthumb_75023_us/snapshots/2f7fdb84-1ba4-45c5-bb25-d038cd72e69d/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/totalwine_us/snapshots/24975bfe-50dd-4e9f-a505-20e7b5f26c7f/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/tractorsupply_us/snapshots/4a95ad79-384d-4ac5-bace-6643ebf33d30/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/ulta_us/snapshots/dd572a90-dd30-4f9b-9c04-14cc99833532/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/walgreens_us/snapshots/4203dc52-1365-432a-a0c4-7b9ddc13f129/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/walmart_75024_us/snapshots/f69ecce8-ed33-43c5-a8d8-6abfb52aa770/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/walmart_lg_us/snapshots/abe75acd-3089-4eed-9d9d-a31ce7a3c4d8/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/walmart_us/snapshots/0ced4593-afb5-40d6-89f5-e48141405c03/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/wayfair_us_osm/snapshots/9f726ff0-f791-4d43-9e54-5c3b08fc29f7/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/wbmason_us/snapshots/4246ca6b-5e5d-445c-a880-abe223395f5e/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/williams_sonoma_us/snapshots/653115e7-a2d1-453b-a956-16488b50959b/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/aboutyou_de/snapshots/57a85f24-2bf2-4108-8f37-6e5bbfbb24d4/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/alkosto_co/snapshots/0d3fa121-dcbc-45dd-8cd1-f83719fd43ed/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/alternate_de/snapshots/a5d60923-9031-4de3-a7dd-7a36130bef86/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/alza_sk/snapshots/5cddcb3d-e188-474d-b1b1-16ee169bf388/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/amazon_ca/snapshots/94fb5be6-341e-4c80-b3d1-e3d8447f0c63/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/amazonlg_in/snapshots/99ee6aba-4c3a-4fee-ae6c-2832a7ef1793/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/ao_de/snapshots/8e7f320e-4c9a-4039-a341-b209e97cbc7e/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/apo_discounter_de/snapshots/636f0874-10f0-427a-a5d0-adacfc86fcb6/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/apo_rot_de/snapshots/0c206583-54b5-42fd-840d-ff71ab7e5a75/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/apteka_ru/snapshots/b220ae97-1b01-4500-b9cc-f213c30b8525/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/barbora_lv/snapshots/588b8593-8b12-49c4-b790-d82d631e1317/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bedbathbeyond_ca/snapshots/4a125628-98b6-4ef9-91a6-f6adf37967c7/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bestbuy_ca_fr/snapshots/498073bd-ccb4-4d06-8efc-40c4867ac13b/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bestbuy_ca/snapshots/1079581f-515c-434c-a495-4740544437b2/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bigbasket_in/snapshots/fcb2229c-5fec-450e-9e73-7a9cc848e0f2/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bueroshop24_de/snapshots/ae50e2a2-1384-4d57-beaa-68092745ebcf/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/canadiantire_ca/snapshots/f74889e0-2d33-46dd-908c-81057a1c6ff3/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/check24_de/snapshots/d801cda7-1406-4d9b-a23b-f318512f389b/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/citilink_ru/snapshots/b8cbaabd-1efd-4c04-8549-d9ecec3cf0e1/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/costco_ca/snapshots/9e6a5a41-1bdf-47b3-b96a-b7364f591125/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/daraz_pk/snapshots/d2f7efa4-9b7b-4b68-9acc-073d7c9f1ced/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/deichmann_de_1606934229049/snapshots/4d52359e-fc89-4aae-8c36-1efe37d0f33b/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/detsky_ru/snapshots/b83ac914-6009-40fa-94cb-10a4aa7d77da/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/dm_de/snapshots/6f8ca67c-f79c-42e7-8557-eef15c690e26/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/dns_shop_ru/snapshots/e5575c66-5c14-4c52-8716-955914a8fc3a/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/docmorris_de/snapshots/81e3f500-229b-4814-806b-2f46aefb10e4/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/douglas_de/snapshots/0be83794-ac8a-48e4-94ba-16fe6f6d6602/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/eapteka_ru/snapshots/ee1d2524-3b8a-463b-abe7-c3e265c24c3d/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/ebag_bg/snapshots/da6ed51f-0062-4e1d-b9b4-066a24d8f4ee/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/eldorado_ru/snapshots/f3767b55-84a0-45e3-b9f7-fa68dd4d048d/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/euronics_ie/snapshots/b0272618-72f7-4870-ba2e-ba9f1de6e3a6/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/falabella_co/snapshots/7aaeff89-8a3a-40d9-b220-0466bee69175/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/falabella_pe/snapshots/4436dd53-696c-43ef-999a-fe5573337975/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/flaconi_de/snapshots/cbb9ebdd-64a4-49b8-bf84-c77b5f182c36/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/hagel_shop_de/snapshots/4b202cb3-0aba-4209-a909-c59868a646d8/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/hair_shop_de/snapshots/00aff7c9-9cec-460a-8323-ecaaf937d64a/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/harveynorman_ie/snapshots/1f14907e-bcce-4b86-a5de-c9e99f315417/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/homedepot_ca/snapshots/8a8b7f51-8d78-4056-a308-c12c1939f32d/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/hummart_pk/snapshots/5bd4248b-3a5f-431f-be90-8d006aea5630/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/hygi_de/snapshots/9166716b-a0f0-469d-8c70-5aca4e60ada6/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/idealclean_de/snapshots/7aa88e57-a6f4-4d69-91a1-a97b6dedab79/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/idealo_de/snapshots/f35f4a67-bf07-4a37-9520-8d9ee35bd805/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/labaie_ca/snapshots/a4a9cc08-aaff-4918-95ca-2da57e633797/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/lacuracao_pe/snapshots/0335d4e4-e413-4c36-aa9b-7ba6b92642fa/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/lenstore_de/snapshots/a334ff1c-c6fe-472d-99cc-9483bb873d3c/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/linenchest_ca/snapshots/c18ccf78-4313-4654-a249-748a737f9b54/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/linenchest_fr_ca/snapshots/ca8221db-9ce9-408c-b63b-ae63635f174f/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/loblaws_ca/snapshots/e0ce7b18-0481-4100-98fa-53869df2fa47/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/londondrugs_ca/snapshots/fcffe9c4-7a52-4e04-a2a6-9d1af29dd289/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/lowes_ca/snapshots/11535057-5463-416b-9674-92cabf2ff4b1/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/lyreco_de/snapshots/7fb1c183-103b-4a55-8e73-15637a8b89e8/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mall_sk/snapshots/40e1f516-37a1-48c9-9ff4-573770a4c259/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mechta_kz/snapshots/c5730bd3-b736-481a-a7c8-d2ed16bf036e/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/medikamente_per_klick_de/snapshots/92462f1b-bc1b-4f7f-90ad-006659702f10/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/medpex_de/snapshots/3b70a802-3e9d-4e60-939c-e24feb509aeb/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/misterspex_de/snapshots/621fa556-9cfe-484f-add0-0a37501077ce/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mvideo_ru/snapshots/b64ac353-81a8-419b-a90a-4e39e432a01a/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mytime_de/snapshots/6baa76cf-0bf1-411f-8070-b86b36990ac5/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/notino_de/snapshots/59f4a982-5756-49ef-bee2-66d8fdcf4cbe/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/ochkarik_ru/snapshots/48b67543-5a3d-40c6-bbf3-97469d3b7262/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/otto_de/snapshots/69e810d0-3a4c-4d73-87bb-0f33aebb8add/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/otto_office_de/snapshots/f2313df7-2662-4b1f-8b1b-52b67dd8e028/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/ozon_ru_menu/snapshots/ee837145-72fe-4d86-aee3-3f8a98c2f82a/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/perekrestok_ru/snapshots/69f28a43-e747-4270-b6dc-752bebaad300/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/petshop_ru/snapshots/afd7f5ed-0e5c-4810-a8fc-d407285a60bd/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/petsmart_ca/snapshots/00124c38-19a4-42de-8b15-77ac2bd5da7e/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/realcanadiansuperstore_ca/snapshots/630dfddb-c7d0-4324-8ffa-a31234eba926/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/rewe_de/snapshots/c4c528ec-cd23-475a-9551-7ca470bbb37f/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/rimi_lv/snapshots/4f9ee229-ee95-4576-a69d-a3a3d043afbc/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/ripley_pe/snapshots/61bbc473-28d6-4d45-a889-bcd05329799f/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/rossmann_de/snapshots/805cafd6-eaa5-44a6-b177-2975d8de7fbe/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/saturn_de/snapshots/c7a659ed-3305-4c3c-abe6-159910be177e/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/sbermarket_auchan_ru/snapshots/4dac2a4d-b01f-46bf-bfae-0885f8d34327/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/sbermarket_lenta_ru/snapshots/7f9ca112-ed9c-46e4-b7c9-0b0486b58ee3/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/sbermarket_metro_ru/snapshots/4861c501-6cc9-4d7c-803b-832331baaf36/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/selver_ee/snapshots/2e9c2246-199d-4853-a152-ece5debecf2e/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/sephora_ca/snapshots/ad8bcf5a-92ab-4a78-85d4-eec4e7419cd4/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/sephora_de/snapshots/b494a679-ebdb-4420-bb94-890fa8698110/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/shop_apotheke_de/snapshots/efd52297-5a8d-4fcf-a7b2-efc77011c97a/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/shoppersdrugmart_ca/snapshots/5b9ed511-2941-4b15-9fc5-23541640080f/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/snipes_de/snapshots/34d924fb-90ba-4d70-ade5-b45ef7590027/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/supervalu_ie/snapshots/8ad17f39-4b3e-4986-858b-e14758685f2e/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/suplak_kz/snapshots/c77e84fa-d7f5-4f28-8c12-74acd60cb625/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/technodom_kz/snapshots/daa261b1-4a79-40cd-8624-bf85133b39cb/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/tesco_ie/snapshots/a9f1cfef-bc6b-41f5-97c2-b0ea4b1024b2/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/tsc_ca/snapshots/0a640028-443c-430a-b965-2cc558d8103f/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/viking_de/snapshots/817126b0-436d-449d-8a14-29e710550bdc/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/voila_ca/snapshots/33554179-451e-4e05-ae6d-eeb1ff834dd2/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/vprok_ru/snapshots/06a7643a-0fd8-497d-bc41-228b74f9ee7f/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/walmarttogo_ca/snapshots/fbea7396-067d-4bef-993a-63a7cf36d203/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/whisky_de/snapshots/f887072e-535b-4558-9581-d40821f01089/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/whiskyzone_de/snapshots/9d14898a-c5af-4471-af18-6907c0accae9/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/wildberries_ru/snapshots/5f253a7a-88a6-4220-9960-1f55a75c2286/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/yandex_ru/snapshots/7d12f7c0-356b-4ae8-a5f9-e415e2b5e59e/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/zooplus_de/snapshots/80f216e7-9843-45b9-aaa3-96f7ada68940/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/zooroyal_de_1606934501335/snapshots/a03b8dac-2211-4923-be54-43a616669f02/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/alcampo_es/snapshots/10ac8821-2650-426f-8d98-d2fdbd58ed2f/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/amazon_br/snapshots/66972398-00bf-491c-b8bf-dbc56430b64a/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/amazonfresh_es/snapshots/1ae1dc42-26e2-49f5-8986-69243714a5be/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/americanas_br/snapshots/c019ec80-434b-46ac-bfbc-3dee74e7b07b/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/auchan_fr/snapshots/883e1521-8313-43ae-8043-08df8c023b8d/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/belezanaweb_br/snapshots/f93298ed-bd39-46df-9bc5-7727b6439463/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bernard_fr/snapshots/6b864d12-0e50-4003-a6ed-d926b47cfbf8/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/boulanger_fr/snapshots/fd65b72d-472c-46fd-9f9b-5051a7c59a4b/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bruneau_fr/snapshots/4d46a4b9-5da2-47cf-a8e7-e9e12c95e0e1/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/capraboacasa_es/snapshots/8dfd6d34-4b25-48fd-a111-521f9a5a50da/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/carrefoursupermercado_es/snapshots/0086ffde-7e55-421c-ba55-bebad5c9e2ec/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/casasbahia_br/snapshots/0db04f8a-ea90-4d40-a0b0-7ef192298f61/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/casasbahia_br/snapshots/9116d33c-43de-4c55-90fb-ae1604c5c0dd/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/casasbahia_br/snapshots/c64707c8-2367-49f0-bc0a-05485a4972c2/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/casinodrive_fr/snapshots/5ca0246f-82a2-4c3d-ada7-25d0674fc21b/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/cdiscount_fr_new/snapshots/707b5ada-7ff2-44f8-9655-eb17b93a4326/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/chronodrive_fr/snapshots/4ad79a47-e18d-4f6f-ac93-7ebdb750826c/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/cobasi_br/snapshots/f4eadf27-b883-4cc8-9423-88e227494bef/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/cocooncenter_fr/snapshots/a80b16db-c818-43ec-b059-6a93a4569d56/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/coradrive_fr/snapshots/5b2e7127-c641-4240-8468-d97742ea22b6/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/coursesu_fr/snapshots/96d8ecc0-ab53-4f66-89aa-dbd4dfc77123/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/dafiti_br/snapshots/a93cc811-2c43-4f3a-b0e4-7978b539dca8/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/darty_fr/snapshots/4cdd7170-22a9-4007-84c6-fd1297e33014/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/dia_es/snapshots/1717a514-467b-49f8-9158-3217ca770b36/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/dosfarma_es/snapshots/f9d78c3c-6456-4eab-af6f-61b90db799b5/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/douglas_es/snapshots/18749d81-674f-4c18-8d20-a8acc82ed888/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/drogaraia_br/snapshots/f91b1cf4-1f1a-4f7d-a561-c7215012fb6a/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/drogariasaopaulo_br/snapshots/768f4cef-eabe-41ad-a954-1e6c68f0b990/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/druni_es/snapshots/4fca5075-de01-4fc9-a34d-4ba03ec4d008/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/easyparapharmacie_fr/snapshots/207a3346-9ebf-4c02-8d7c-b65c9582a696/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/elcorteingles_apparel_es/snapshots/86b1e195-6d0d-44da-9dea-d7fc7eb502a3/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/elcorteingles_electronica_es/snapshots/6c4f6a3c-7070-4812-b0e3-d4b047423c69/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/elcorteingles_es/snapshots/e7d68d7d-5ecc-4725-85d6-8b59d59d30ce/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/elcorteingles_perfumeria_es/snapshots/956b2e7a-2cf5-4698-93e0-4268d19ded8e/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/eleclerc_parapharmacie_fr/snapshots/e15072da-ca66-4707-bd93-9f192b4edffc/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/epoca_br/snapshots/9921e7b4-4dd2-48bc-8b82-a5f7cb9dc149/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/eroski_es/snapshots/44070647-436d-442a-82fb-f5c873f9f16b/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/extra_br/snapshots/d50c2320-4d8d-4426-bafc-ab47a36c181b/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/fnac_es/snapshots/0fe1ba66-8efc-4ba7-979c-d73a1d5497b6/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/fnac_fr/snapshots/38cdce9d-0ff9-47ec-a757-8f736ef72dcb/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/intermarche_fr/snapshots/6aeea498-e2b5-45c0-8b81-3945a2943dd8/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/jpg_fr/snapshots/2e4460a0-b326-413f-ae5f-a0c59aa4ab55/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/kabum_br/snapshots/68814d3b-0eda-4fd7-bf73-fcc559d74b97/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/keshop_es/snapshots/00b9ede6-2c00-4910-85bd-0206a3ef0bc6/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/leclercdrive_fr/snapshots/5ac9f730-ef69-48d4-adf3-7858629e6f19/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/lenstore_fr/snapshots/d1f9249c-4dd4-488b-b5b5-5a4bdb87bcca/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/lentillesmoinscheres_fr/snapshots/628c50ee-d2e0-4106-8282-67d2cc90c040/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/lyreco_es/snapshots/7b2b31fa-1bf6-4e11-aed3-6b413b82ae24/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/lyreco_fr/snapshots/3d2e16b1-36cb-48a6-b9dd-8444ae2f18a5/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/magazineluiza_br/snapshots/787bda66-0c8a-4c84-b4ef-a2ff458b9801/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mambo_br_1606934578718/snapshots/f5ddf91a-6bc7-40e5-a8e2-5f8c327b813a/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/maquillalia_es/snapshots/152e1656-f466-4ffa-83c8-a512940701e2/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/marionnaud_fr/snapshots/856f3fb3-cc30-43ba-a41b-79d057d2652a/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mediamarkt_es/snapshots/3fc99bab-f2ab-4652-9cec-86a4a468c89c/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mercadona_es/snapshots/9a596920-5418-4bad-b671-e918aaf36296/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mifarma_es/snapshots/09b206e7-08cd-4ffa-b5ef-aa00d1f67f6c/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/minidomestic_es/snapshots/34028998-1641-4429-9ee3-a60cb3fd6f87/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/monoprix_fr/snapshots/d22f8929-9537-4b0b-a387-ad4af50b6ce4/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/netshoes_br/snapshots/ce88e5c6-080e-42e6-afc0-4ded8d4f97bb/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/nocibe_fr/snapshots/95b76181-e639-4b7f-835f-210992f24155/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/nutricaototal_br/snapshots/67ef3f9c-18de-41ab-89e5-74fd96483ac1/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/officedepot_fr/snapshots/7b557a86-c98b-4e30-8669-1bd3f858c830/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/onofre_br/snapshots/d53a50dd-6e92-42cd-904d-a7a216f1943a/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/origines_fr/snapshots/a1dd094e-5397-43f6-94aa-78342e1d90bc/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/panvel_br/snapshots/be6d406d-c111-4822-88e4-0e19f20ab268/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/paodeacucar_br/snapshots/b71778e9-2ffc-4d01-937b-1b7c17313b3d/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/pccomponentes_es/snapshots/04beace1-b51a-4d9a-ae87-7dcc2683e734/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/pccomponentes_es/snapshots/46d2ab25-3283-4ec9-8242-6738ce404711/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/perfumesclub_es/snapshots/9bf7d7e6-f6a1-427d-ba31-43abb266810a/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/petlove_br/snapshots/f3c643cb-1d51-4acc-88b3-528177ea463a/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/pontofrio_br/snapshots/061f5a2d-b964-44bf-9df9-306b32067a29/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/promofarma_es/snapshots/e966a5bc-0b9c-4d68-8980-84b5644be548/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/santediscount_fr/snapshots/15bd3118-6420-4369-af35-8c9be2b00a91/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/senea_fr/snapshots/0dc63da6-dcb7-46b3-b534-5deb0c5d934a/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/sephora_br/snapshots/a822fab4-7c8e-4839-8621-c08c0ff14086/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/sephora_fr/snapshots/aaa21d94-ca6f-4899-8494-7314f23237f2/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/sphere_sante_fr/snapshots/fe9d1586-de34-42ef-8dad-c40805c4ed70/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/submarino_br/snapshots/90bf349c-6e8f-441c-9cf8-6e6d6e347146/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/ulabox_es/snapshots/9cea2f60-3587-4456-8895-447ef1f92921/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/vikingdirect_fr/snapshots/46d7acc3-ff2b-44b2-a8d5-bfa8b9d19aca/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/voussert_fr/snapshots/caeca42d-41b0-479e-b7f5-a2e3645009c4/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/worten_es/snapshots/bf4d10ee-7e2f-4c94-bd07-d11459afea0c/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/zalando_fr/snapshots/7a1936ec-c742-45e4-9e80-536e85bf6bdf/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/zooplus_fr/snapshots/16f49325-6703-4097-b83a-9850b87ae169/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/alza_cz/snapshots/4a0c2f49-dcc7-4513-89cd-97c7220541e9/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/amicafarmacia_it/snapshots/5b17710e-a7da-48d6-a21c-0cf77455d884/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/appie_nl/snapshots/902bb9be-0c6c-4821-95ce-136731e64826/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/avansas_tr/snapshots/e4b29b12-c370-4470-818d-6e2182f9bfc7/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bcc_nl/snapshots/7eed1d7b-3d17-44b9-ac6d-9261325152c8/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/beautye_it/snapshots/8aebc0a1-926f-4a20-ba82-8fdf94b3f0e3/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/belgique_incontinence_be/snapshots/26cf007c-9ece-4868-99fc-2c7b361485c9/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bidfood_nl/snapshots/97e7af42-4cf8-4538-93d9-670869598092/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bijenkorf_nl/snapshots/eb693193-2b7e-487c-a55e-32600d14160e/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bol_nl/snapshots/b9e99303-2c97-45b1-b479-3b3f5914a970/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/carrefour_be/snapshots/9668bbee-26b8-4142-bd8d-2401448369cc/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/carrefour_it/snapshots/c0edd8a1-3816-468c-81f5-ed021edab2b0/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/chedraui_mx/snapshots/a71038fa-bc83-4803-9b4a-c7fa2c797e74/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/colruyt_be/snapshots/ed7f4baf-90b3-4aca-ab74-9ede87bce24b/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/colruyt_nl_be/snapshots/660318eb-884d-46ba-88fb-8db09fd39750/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/coolblue_nl/snapshots/84e3af84-bda5-49d0-a434-4245fbbcd9ed/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/coop_nl/snapshots/1eb8cb27-905e-4c8b-b471-44c1c7426561/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/coppel_mx/snapshots/8c2739cb-1b01-4d3c-9f47-3166366d6944/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/costco_mx/snapshots/05194144-e816-4046-8a18-92827ec0ed72/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/datart_cz/snapshots/98dc8630-c0eb-407e-a711-8ffda8e9e0ce/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/delhaize_be/snapshots/a23977bd-20e3-45aa-adda-f402e0fee655/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/deonlinedrogist_nl/snapshots/39052cad-2962-4c67-b0d0-269af9a6ed67/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/douglas_it/snapshots/f62f1d70-6275-4770-b04d-1abfaa595db2/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/drogistplein_nl/snapshots/49cecdab-c06f-4a54-8419-6fb1ced2bc9d/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/easycoop_it/snapshots/0f7e8a13-6715-4c9a-99e5-b923bf3f19f5/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/e_bebek_tr/snapshots/f0e62ea5-c639-4a78-bbc8-f1b9c1be511a/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/efarma_it/snapshots/720b0b93-cab3-4a2c-95be-75e0c9818d7e/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/esselungaacasa_it/snapshots/cc1ddf87-5ed3-42c6-a59b-611b3197a0b9/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/etos_nl/snapshots/8d4f5a1a-8085-4a64-a6b6-f23080566187/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/fahorro_mx_1606934400200/snapshots/03113468-dc95-4932-b779-6550e754def4/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/farmaciasanpablo_mx/snapshots/2fa4ec7f-ac09-4365-b800-c89089744810/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/farmae_it/snapshots/c0a07ec1-16d3-4ad9-9274-fe7e5f5ff2b5/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/farmaline_be/snapshots/01f3735c-31c2-4a30-a894-baa88573f516/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/farmaline_nl_be/snapshots/6737d645-c0f3-458e-a1f5-fb58dabb70eb/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/fravega_ar/snapshots/de278af9-5580-4aba-9b3f-aab3c09e70b5/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/gall_and_gall_nl/snapshots/6e90e355-db23-45b5-b1f3-a9a88fd95fb6/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/garbarino_ar/snapshots/a7de308f-309e-499d-ac56-4842a9da7343/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/haarshop_nl/snapshots/9b98a50c-a070-4033-8b22-412149eff789/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/hair_gallery_it_1606934428152/snapshots/a680c672-1fb4-4aaf-bee9-3858892d3617/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/heb_mx/snapshots/4cd5b2a7-d229-484a-b8bf-d48634cd550d/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/hepsiburada_tr/snapshots/2ac56a7f-cdae-4944-95ea-1fd6dbe3d203/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/hoogvliet_nl/snapshots/480df85e-df44-43d0-8fac-ae213f32f736/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/hulpmiddelwereld_nl/snapshots/5ae10fb4-92f3-4993-a3ed-62d50a3fa5e3/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/iciparisxl_be/snapshots/5a1b9a2e-9a15-47e8-a88e-c686d7c935b4/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/iciparisxlfr_be/snapshots/c85bcfa3-b831-4a83-9385-c30bccf6979d/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/iciparisxl_nl/snapshots/c3659870-0bd4-4bd5-b9b1-00c696ff1aee/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/johnbeerens_nl/snapshots/bb6e052a-5f3e-4814-b7bc-d09ba23a0c4d/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/jumbo_ar/snapshots/1e86228e-037b-4f92-887f-48f5f99768f1/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/kruidvat_nl/snapshots/2b8f89b7-bb0a-4325-aff4-69e44c61e119/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/lacomer_mx/snapshots/af6ab2ab-c944-4070-9e5d-695857ce8b20/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/lensonline_nl_be/snapshots/06abb989-25e5-4682-b98d-de58438fcef9/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/lenstore_it/snapshots/ab557268-6aaf-4334-b6d7-d4edfe8302e0/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/linio_mx/snapshots/b08ead62-02b7-404c-8e17-cc37bbabeb8e/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/liverpool_mx/snapshots/1af46e25-d477-48a0-821e-cf81de058312/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mall_cz/snapshots/74544807-df00-4f82-8c92-6fbec01b9a48/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/manutan_nl/snapshots/01a7b6df-7916-4f13-96a6-22be2e9b1623/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mediamarkt_be/snapshots/4a4a74e0-abcb-4588-9319-784823e9eec5/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mediamarkt_nl/snapshots/459cbbca-d568-4674-827f-8dbc7df46ef0/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mediamarkt_nl/snapshots/d8057f49-f842-4f05-8433-80aaa92af77e/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mediamarkt_tr/snapshots/10c64479-9e23-40ae-9190-68ebcdbc3208/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mediaworld_it/snapshots/612bc550-9d63-4d30-83a1-a97dfbfb1245/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/migros_tr/snapshots/ceb34070-80dd-4cfa-ad21-1f293c38dfa4/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/mijnhuidonline_nl/snapshots/e45cf368-90de-4e5d-8642-d85d12438cab/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/monclick_it/snapshots/a82a6787-b2ac-49f8-9ab9-be2acdfdd3be/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/myquantos_nl/snapshots/a1a4c3fc-d301-4419-916a-4166e751a1b6/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/newpharma_be/snapshots/8d805bbe-784d-4b97-b6ee-50a02c1b9778/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/newpharma_nl_be/snapshots/1c854ad6-b858-4830-a7b0-237b57a09c39/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/parfumswinkel_nl/snapshots/d7926902-616b-4d5d-b23c-3a8366ad9270/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/petburada_tr/snapshots/8a010ce1-af47-47f9-a055-d3be063c35bd/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/pharmasimple_be/snapshots/c6c8aa36-fc72-45f6-a5a1-b9fbddff0126/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/pilulka_cz/snapshots/1981e572-aa97-44d2-b4a9-f1a5ec67f3eb/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/pinalli_it/snapshots/e12649e0-ed4e-4b97-a6fc-c68617585445/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/planethair_it_1606934715287/snapshots/a4dfb0f3-af9a-443b-9a1d-495196acb783/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/rohlik_cz/snapshots/b0bcb2d8-1817-4583-9a1b-187eed51ce74/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/salontopper_nl/snapshots/dc2fa370-8efa-420d-9d96-20d46a454817/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/samsclub_mx/snapshots/52991c6f-254c-488f-9437-878e2ab6a9d8/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/semprefarmacia_it_1606934733240/snapshots/b366af1a-330b-4583-9249-66ea01f729b4/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/sephora_it/snapshots/f299fd44-33ec-4995-b48c-617d59725e6c/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/sightful_nl/snapshots/17da3df1-4f62-465f-adc9-bcdc5aa68a36/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/teknosa_tr/snapshots/3430f3e6-ddf2-413d-a8fa-b30a6f3de90b/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/tigota_it_1606934755840/snapshots/e93ab1e1-10f6-44aa-8c4d-c2d1dcb3a09b/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/trilab_it_1606934764738/snapshots/7aa6297f-273c-4592-9d39-3cf05ae101d2/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/unieuro_it/snapshots/b6bb7e59-c06e-4c08-9b65-bf170ca19762/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/vatan_tr/snapshots/3abee2ed-22a8-45ac-8472-65fbfc87a5d0/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/vikingdirect_nl/snapshots/a1bb9793-7baf-414f-959b-c89851ec506a/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/walmart_ar/snapshots/7959010c-eba3-48b2-842d-54f34e490f01/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/walmart_mx/snapshots/3d562775-a762-4c5a-9037-9f90c19e9ece/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/wehkamp_nl/snapshots/1c42f9c1-53fa-4fbd-9964-1bb08baf6718/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/zooplus_it/snapshots/b63556ef-2a13-4939-8a0b-078ac34c0f7b/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/zooplus_nl/snapshots/3c7c9769-741c-4496-8417-6bc58e615a2f/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/amazon_uk/snapshots/083ba359-8ed8-4820-976a-d9c318db7228/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/ao_uk/snapshots/9bccdca9-8a76-4ce2-9d16-2423c4744b0f/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/arco_uk/snapshots/f739a9fe-d7e8-4075-97c2-0844cc2e1344/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/argos_uk/snapshots/2bd1b9f9-c88e-415b-bef8-9edbdd66381f/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/asda_uk/snapshots/06fd0c17-4e6e-4976-aaf2-3cfabbe83406/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/asos_uk/snapshots/f5ba2f6f-730f-4cd7-9eb8-f853cb83067c/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/bestway_uk/snapshots/8b2ab9b5-9b91-401e-90ca-c4ab20784306/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/booker_uk/snapshots/88809436-4e30-41ed-bdcc-7a7dc795e166/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/boots_uk/snapshots/bb026218-261e-4e02-bff7-6b2a07631c6c/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/brake_uk/snapshots/434f12f4-8367-41a3-858a-a2c09e9a8020/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/coop_uk/snapshots/682c339e-624e-42f3-8c3a-748c464011e9/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/cromwell_uk/snapshots/49ff1382-ecfc-4460-9e38-e8c46fce5f64/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/currys_uk/snapshots/e3bfa288-20ef-4d42-b199-f0c5c492d358/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/debenhams_uk/snapshots/169afc6b-3078-4563-9ff4-62bb29f3d4a8/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/feelunique_uk/snapshots/153aecbe-70a5-497d-a7d6-3fade3b968b4/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/fetch_uk/snapshots/03e96662-ed2f-4fc6-8a35-fed5a1c6ff86/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/footlocker_us/snapshots/58075403-dded-4df2-836c-7887e299da31/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/fragrancedirect_uk/snapshots/6f50d482-fcd8-4a91-b634-5130e0a8d4c2/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/freshamazon_uk/snapshots/c376d354-4f21-4a6d-bdd5-c33065cd0929/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/iceland_uk/snapshots/4bfd9013-b4b0-47c6-8b5c-38e025211b05/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/jdsports_uk/snapshots/fe4bfef8-cdad-4d20-b5db-cf04b9309943/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/lenstore_uk/snapshots/017f4aa7-7db0-4d3c-b566-f040b620fb18/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/look_fantastic_uk/snapshots/e885e88a-6576-48dc-9a47-537e17ed0353/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/lyreco_uk/snapshots/638f7938-0f28-4962-8765-5ce5d194666a/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/matthewclark_uk/snapshots/dd83089f-7d54-4c8f-b898-bca9961e94f5/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/molson_coors_uk/snapshots/0b8334e8-6a5c-4059-ab77-44d9c159cb3c/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/monsterpetsupplies_uk/snapshots/667e21fd-b7a9-46da-a3b3-c890f471e4ef/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/morrisons_uk_new/snapshots/33f66d54-9bdf-49cb-8bf1-768dc3512489/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/next_uk/snapshots/1b47918b-808c-4eb3-a670-833636f4100d/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/ocado_uk/snapshots/a4941cca-47cd-4db1-aa46-e0f72e4614bc/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/petsathome_uk/snapshots/26732958-c723-4546-aa39-c633f4354321/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/prodirectsoccer_uk/snapshots/629d9ee0-e445-4b66-8130-e0ad0af57654/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/sainsburys_uk/snapshots/d5093038-1175-42d6-97c0-6a3f78616dbe/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/salon_services_uk/snapshots/51089512-09d0-43e4-9343-ad411f6bbc8b/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/selfridges_uk/snapshots/6342d47a-ec19-45eb-a7bc-8da862a43424/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/sportsdirect_uk/snapshots/0862338f-ecc6-4474-ba1e-c1a4e1f8b9a2/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/staples_uk/snapshots/f63a0c11-c325-4063-af5f-f2af91c7b1c7/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/superdrug_uk/snapshots/a4ff9d08-6697-4814-8211-8b9fcb7cfc31/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/tesco_uk/snapshots/e55840b8-c7df-46c9-890f-a0237380215c/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/thewhiskyexchange_uk/snapshots/d3c05e37-5caf-49e2-8e29-8a88fa0f94f1/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/very_uk/snapshots/ed1293f6-6fe0-4eb7-976d-234821b0efc4/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/viking_uk/snapshots/42bb3331-52c7-44de-af2b-b71179e12bc3/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/viovet/snapshots/930c577d-9f8e-4cd3-bede-fde69c8472a9/home",
+    "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/menu___search/sources/worlddutyfree_uk/snapshots/5a9a66ff-2a40-4c97-a479-acabad8327c7/home",
 ]
+
+const sources = [];
+urlList.forEach((url) => {
+    sources.push(new WorkbenchSource(url))
+})
+
+module.exports = sources
