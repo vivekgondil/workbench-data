@@ -50,14 +50,14 @@ const getInputs = async (source) => {
             source.slug = source.url.match(/(\/sources\/)([^/]+)/g)[0].match(/[^/]+/g)[1]
 
             if (!source.id) source.id = await getSourceIdFromURL(source);
-            const inputs = await getInputs(source)
+            if (!source.inputs) source.inputs = await getInputs(source)
             if (!source.extractor) {
                 const extractor = await workbench.get(`/api/orgs/${source.org}/sources/${source.id}/extractor`);
                 source.extractor = extractor.data.guid
             }
 
             //put Inputs to extractor
-            await store.put(`/store/extractor/${source.extractor}/_attachment/inputs`, inputs);
+            await store.put(`/store/extractor/${source.extractor}/_attachment/inputs`, source.inputs);
 
             //start the run 
             await workbench.post(`/api/orgs/${source.org}/sources/${source.id}/_start`);

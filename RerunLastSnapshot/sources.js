@@ -1,6 +1,7 @@
 module.exports = [
     {
-        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/core_details/sources/target_us/home"
+        url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf_beta/collections/core/sources/apflowes_us/home",
+        inputs: '{"URL":"https://www.lowes.com/pd/DreamLine-Unidoor-Plus-72-in-H-x-33-5-in-to-34-in-W-Frameless-Hinged-Brushed-Nickel-Shower-Door/50392860"}',
     },
     // {
     //     url: "https://workbench.import.io/orgs/ascential/projects/digital_shelf/collections/core_details/sources/linella_md/snapshots"
@@ -52,6 +53,7 @@ array pattern = [
         url: "", //*
         id: "SourceId", //?
         extractor: "sourceExtractorId",  //?
+        inputs: "" //?
     },
 ]
 */
