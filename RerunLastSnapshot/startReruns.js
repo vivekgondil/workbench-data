@@ -19,19 +19,25 @@ const getSourceIdFromURL = async (source) => {
 
 const getInputs = async (source) => {
     //item contents list of latest snapshot info
-    const lastSnapshots = await workbench.get(`/api/orgs/${source.org}/sources/${source.id}/snapshots?limit=50&sort=addedAt&sortDirection=DESC&cursor=&include=Source.Collection.Project%2CimportStatus%2Ceditor%2CassignedUser%2Cparent&filter=parentId%7C%7Cnull`);
-    try {
+    if (!source.snapshot) {
+        const lastSnapshots = await workbench.get(`/api/orgs/${source.org}/sources/${source.id}/snapshots?limit=50&sort=addedAt&sortDirection=DESC&cursor=&include=Source.Collection.Project%2CimportStatus%2Ceditor%2CassignedUser%2Cparent&filter=parentId%7C%7Cnull`);
         try {
-            const inputs = await workbench.get(`/api/orgs/${source.org}/snapshots/${lastSnapshots.data.items[0].id}/assets/inputs.json`);
-            return inputs.data
+            try {
+                const inputs = await workbench.get(`/api/orgs/${source.org}/snapshots/${lastSnapshots.data.items[0].id}/assets/inputs.json`);
+                return inputs.data
+            } catch (error) {
+                const inputs = await workbench.get(`/api/orgs/${source.org}/snapshots/${lastSnapshots.data.items[1].id}/assets/inputs.json`);
+                return inputs.data
+            }
         } catch (error) {
-            const inputs = await workbench.get(`/api/orgs/${source.org}/snapshots/${lastSnapshots.data.items[1].id}/assets/inputs.json`);
+            const inputs = await workbench.get(`/api/orgs/${source.org}/snapshots/${lastSnapshots.data.items[2].id}/assets/inputs.json`);
             return inputs.data
         }
-    } catch (error) {
-        const inputs = await workbench.get(`/api/orgs/${source.org}/snapshots/${lastSnapshots.data.items[2].id}/assets/inputs.json`);
+    } else {
+        const inputs = await workbench.get(`/api/orgs/${source.org}/snapshots/${source.snapshot}/assets/inputs.json`);
         return inputs.data
     }
+
 
 }
 
@@ -48,6 +54,12 @@ const getInputs = async (source) => {
             source.project = source.url.match(/(\/projects\/)([^/]+)/g)[0].match(/[^/]+/g)[1]
             source.collection = source.url.match(/(\/collections\/)([^/]+)/g)[0].match(/[^/]+/g)[1]
             source.slug = source.url.match(/(\/sources\/)([^/]+)/g)[0].match(/[^/]+/g)[1]
+            try {
+                source.snapshot = source.url.match(/(\/snapshots\/)([^/]+)/g)[0].match(/[^/]+/g)[1]
+            } catch (error) {
+
+            }
+
 
             if (!source.id) source.id = await getSourceIdFromURL(source);
             if (!source.inputs) source.inputs = await getInputs(source)
@@ -61,12 +73,12 @@ const getInputs = async (source) => {
 
             //start the run 
             await workbench.post(`/api/orgs/${source.org}/sources/${source.id}/_start`);
-            console.log(`Started the API rerun for source: ${source.slug}`);
+            console.log(`Started the API rerun for source: ${source.org}/${source.project}/${source.collection}/${source.slug}`);
 
         } catch (error) {
             let message = typeof error.response !== "undefined" ? error.response.data.message : error.message;
             source.error = message;
-            console.log(message, "=>", source.slug);
+            console.log(message, "=>", source.org, "/", source.project, "/", source.collection, "/", source.slug);
             errorsources.push(source);
             if ((i + 1) === sources.length) {
                 stringData = JSON.stringify(errorsources, null, 2);
