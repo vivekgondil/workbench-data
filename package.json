@@ -8,7 +8,8 @@
         "start": "node index.js",
         "dev": "nodemon index.js",
         "rerun": "node ./RerunLastSnapshot/startReruns.js",
-        "reimport": "node ./ReImport/startReruns.js"
+        "reimport": "node ./ReImport/startReruns.js",
+        "changeStatus": "node ./changeSnapshotStatus/start.js"
     },
     "repository": {
         "type": "git",
